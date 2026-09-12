@@ -4,11 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node api.js && vite",
+    "build": "node api.js && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@kmotion/animation": "^0.1.1",
     "vue": "^3.5.40",
     "vue-router": "^4.6.4"
   },
