@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@kmotion/animation": "^0.1.1",
     "vue": "^3.5.40",
     "vue-router": "^4.6.4"
   },
